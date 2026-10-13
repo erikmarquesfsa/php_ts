@@ -20,7 +20,14 @@
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-                <?php include "conteudo/cad.produto.php"; ?>
+                <?php 
+                    $rota = $_GET['r'];
+                    if($rota=="cad_prod"){
+                        include "conteudo/cad.produto.php";
+                    }elseif($rota=="list_prod"){
+                        include "conteudo/listagem.php";
+                    }
+                     ?>
                 <!-- /.container-fluid -->
 
             </div>

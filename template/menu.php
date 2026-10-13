@@ -21,12 +21,12 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="index.php?r=cad_prod">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Cadastrar um produto</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="index.php?r=list_prod">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Editar Produto</span></a>
             </li>
