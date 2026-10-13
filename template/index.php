@@ -26,6 +26,8 @@
                         include "conteudo/cad.produto.php";
                     }elseif($rota=="list_prod"){
                         include "conteudo/listagem.php";
+                    }elseif($rota=="editar"){
+                        include "conteudo/editar.php";
                     }
                      ?>
                 <!-- /.container-fluid -->
