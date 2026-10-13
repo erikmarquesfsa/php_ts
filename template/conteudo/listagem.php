@@ -31,8 +31,8 @@ $resultado = mysqli_query($conexao,$busca);
                     <td style="text-align: center;"><?= $produtos['tipo'] ?></td>
                     <td style="text-align: center;"><?= $produtos['valor'] ?></td>
                     <td style="text-align: center;"><?= $produtos['quantidade'] ?></td>
-                    <td style="text-align: center;"><a href="#" class="btn btn-warning">Editar</a></td>
-                    <td style="text-align: center;"><a href="#" class="btn btn-danger">Deletar</a></td>
+                    <td style="text-align: center;"><a href="#?id=<?= $produtos['id'] ?>" class="btn btn-warning">Editar</a></td>
+                    <td style="text-align: center;"><a href="../script/deletar_id.php?id=<?= $produtos['id'] ?>" class="btn btn-danger">Deletar</a></td>
                 </tr>
                 <?php endwhile; ?>
                 <tfoot>
